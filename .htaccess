@@ -1,0 +1,35 @@
+# Block the include-only files.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^wp-admin/includes/ - [F,L]
+RewriteRule !^wp-includes/ - [S=3]
+RewriteRule ^wp-includes/[^/]+\.php$ - [F,L]
+RewriteRule ^wp-includes/js/tinymce/langs/.+\.php - [F,L]
+RewriteRule ^wp-includes/theme-compat/ - [F,L]
+</IfModule>
+<Files wp-config.php>
+<IfModule !mod_authz_core.c>
+order allow,deny
+deny from all
+</IfModule>
+<IfModule mod_authz_core.c>
+require all denied
+</IfModule>
+</Files>
+
+# BEGIN WordPress
+# 在「BEGIN WordPress」与「END WordPress」之间的指令（行）是
+# 动态生成的，只应被 WordPress 过滤器修改。
+# 任何对标记之间的指令的修改都会被覆盖。
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress

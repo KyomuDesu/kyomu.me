@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'JyunsaiKaai';
+    src: url('https://kyomu.me/wp-content/customfont/JyunsaiKaai.woff2') format('woff2'),
+         url('https://kyomu.me/wp-content/customfont/JyunsaiKaai.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

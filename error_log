@@ -1,0 +1,1504 @@
+[06-Sep-2024 15:32:41 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/footer.php on line 128
+[06-Sep-2024 15:32:44 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/footer.php on line 128
+[07-Sep-2024 07:43:21 UTC] WordPress database error Table 'kyom27242379_cgbb1.pmf8_rank_math_analytics_gsc' doesn't exist for query SELECT SUM(impressions) AS impressions, SUM(clicks) AS clicks, AVG(position) AS position FROM pmf8_rank_math_analytics_gsc WHERE created BETWEEN '2024-08-02 00:00:00' AND '2024-09-04 23:59:59' LIMIT 0, 1 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, RankMath\Rest\Admin->dashboard_widget_items, RankMath\Rest\Admin->do_action, do_action_ref_array('rank_math/dashboard/widget'), WP_Hook->do_action, WP_Hook->apply_filters, RankMath\Analytics\Analytics_Common->dashboard_widget, RankMath\Analytics\Analytics_Common->get_dashboard_widget_items, RankMath\Analytics\Summary->get_widget, RankMath\Admin\Database\Query_Builder->one
+[07-Sep-2024 07:43:21 UTC] WordPress database error Table 'kyom27242379_cgbb1.pmf8_rank_math_analytics_gsc' doesn't exist for query SELECT SUM(impressions) AS impressions, SUM(clicks) AS clicks, AVG(position) AS position FROM pmf8_rank_math_analytics_gsc WHERE created BETWEEN '2024-06-29 00:00:00' AND '2024-08-01 23:59:59' LIMIT 0, 1 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, RankMath\Rest\Admin->dashboard_widget_items, RankMath\Rest\Admin->do_action, do_action_ref_array('rank_math/dashboard/widget'), WP_Hook->do_action, WP_Hook->apply_filters, RankMath\Analytics\Analytics_Common->dashboard_widget, RankMath\Analytics\Analytics_Common->get_dashboard_widget_items, RankMath\Analytics\Summary->get_widget, RankMath\Admin\Database\Query_Builder->one
+[07-Sep-2024 07:43:21 UTC] WordPress database error Table 'kyom27242379_cgbb1.pmf8_rank_math_analytics_gsc' doesn't exist for query SELECT COUNT(DISTINCT(query))
+				FROM pmf8_rank_math_analytics_gsc
+				WHERE created BETWEEN '2024-08-02 00:00:00' AND '2024-09-04 23:59:59' made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, RankMath\Rest\Admin->dashboard_widget_items, RankMath\Rest\Admin->do_action, do_action_ref_array('rank_math/dashboard/widget'), WP_Hook->do_action, WP_Hook->apply_filters, RankMath\Analytics\Analytics_Common->dashboard_widget, RankMath\Analytics\Analytics_Common->get_dashboard_widget_items, RankMath\Analytics\Summary->get_widget, RankMath\Analytics\Summary->get_keywords_summary
+[07-Sep-2024 07:43:21 UTC] WordPress database error Table 'kyom27242379_cgbb1.pmf8_rank_math_analytics_gsc' doesn't exist for query SELECT COUNT(DISTINCT(query))
+				FROM pmf8_rank_math_analytics_gsc
+				WHERE created BETWEEN '2024-06-29 00:00:00' AND '2024-08-01 23:59:59' made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, RankMath\Rest\Admin->dashboard_widget_items, RankMath\Rest\Admin->do_action, do_action_ref_array('rank_math/dashboard/widget'), WP_Hook->do_action, WP_Hook->apply_filters, RankMath\Analytics\Analytics_Common->dashboard_widget, RankMath\Analytics\Analytics_Common->get_dashboard_widget_items, RankMath\Analytics\Summary->get_widget, RankMath\Analytics\Summary->get_keywords_summary
+[07-Sep-2024 18:21:18 UTC] WordPress database error Table 'kyom27242379_cgbb1.pmf8_rank_math_analytics_gsc' doesn't exist for query SELECT COUNT(DISTINCT(page)) AS posts, SUM(impressions) AS impressions, SUM(clicks) AS clicks, AVG(position) AS position FROM pmf8_rank_math_analytics_gsc WHERE created BETWEEN '2024-08-02 00:00:00' AND '2024-09-04 23:59:59' LIMIT 0, 1 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, RankMath\Analytics\Rest->get_dashboard, RankMath\Analytics\Summary->get_analytics_summary, RankMath\Admin\Database\Query_Builder->one
+[07-Sep-2024 18:21:18 UTC] PHP Warning:  Creating default object from empty value in /home2/kyom27242379/public_html/wp-content/plugins/seo-by-rank-math/includes/modules/analytics/class-summary.php on line 226
+[07-Sep-2024 18:21:18 UTC] WordPress database error Table 'kyom27242379_cgbb1.pmf8_rank_math_analytics_gsc' doesn't exist for query SELECT COUNT(DISTINCT(page)) AS posts, SUM(impressions) AS impressions, SUM(clicks) AS clicks, AVG(position) AS position FROM pmf8_rank_math_analytics_gsc WHERE created BETWEEN '2024-06-29 00:00:00' AND '2024-08-01 23:59:59' LIMIT 0, 1 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, RankMath\Analytics\Rest->get_dashboard, RankMath\Analytics\Summary->get_analytics_summary, RankMath\Admin\Database\Query_Builder->one
+[07-Sep-2024 18:21:18 UTC] PHP Warning:  Creating default object from empty value in /home2/kyom27242379/public_html/wp-content/plugins/seo-by-rank-math/includes/modules/analytics/class-summary.php on line 239
+[07-Sep-2024 18:21:18 UTC] WordPress database error Table 'kyom27242379_cgbb1.pmf8_rank_math_analytics_gsc' doesn't exist for query SELECT COUNT(DISTINCT(query))
+				FROM pmf8_rank_math_analytics_gsc
+				WHERE created BETWEEN '2024-08-02 00:00:00' AND '2024-09-04 23:59:59' made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, RankMath\Analytics\Rest->get_dashboard, RankMath\Analytics\Summary->get_analytics_summary, RankMath\Analytics\Summary->get_keywords_summary
+[07-Sep-2024 18:21:18 UTC] WordPress database error Table 'kyom27242379_cgbb1.pmf8_rank_math_analytics_gsc' doesn't exist for query SELECT COUNT(DISTINCT(query))
+				FROM pmf8_rank_math_analytics_gsc
+				WHERE created BETWEEN '2024-06-29 00:00:00' AND '2024-08-01 23:59:59' made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, RankMath\Analytics\Rest->get_dashboard, RankMath\Analytics\Summary->get_analytics_summary, RankMath\Analytics\Summary->get_keywords_summary
+[07-Sep-2024 18:21:18 UTC] WordPress database error Table 'kyom27242379_cgbb1.pmf8_rank_math_analytics_gsc' doesn't exist for query SELECT DATE_FORMAT( created, '%Y-%m-%d') as date, SUM(clicks) as clicks, SUM(impressions) as impressions, AVG(position) as position, AVG(ctr) as ctr, CASE WHEN created BETWEEN '2024-08-05 00:00:00' AND '2024-08-10 23:59:59' THEN 'range1' WHEN created BETWEEN '2024-08-11 00:00:00' AND '2024-08-16 23:59:59' THEN 'range2' WHEN created BETWEEN '2024-08-17 00:00:00' AND '2024-08-22 23:59:59' THEN 'range3' WHEN created BETWEEN '2024-08-23 00:00:00' AND '2024-08-28 23:59:59' THEN 'range4' WHEN created BETWEEN '2024-08-29 00:00:00' AND '2024-09-04 23:59:59' THEN 'range5' ELSE 'none' END AS 'range_group'
+			FROM pmf8_rank_math_analytics_gsc
+			WHERE created BETWEEN '2024-08-02 00:00:00' AND '2024-09-04 23:59:59'
+			GROUP BY range_group made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, RankMath\Analytics\Rest->get_dashboard, RankMath\Analytics\Summary->get_analytics_summary, RankMath\Analytics\Summary->get_analytics_summary_graph
+[07-Sep-2024 18:21:18 UTC] WordPress database error Table 'kyom27242379_cgbb1.pmf8_rank_math_analytics_gsc' doesn't exist for query SELECT t.range_group, MAX(CONCAT(t.range_group, ':', t.date, ':', t.keywords )) as mixed FROM
+				(SELECT COUNT(DISTINCT(query)) as keywords, Date(created) as date, CASE WHEN created BETWEEN '2024-08-05 00:00:00' AND '2024-08-10 23:59:59' THEN 'range1' WHEN created BETWEEN '2024-08-11 00:00:00' AND '2024-08-16 23:59:59' THEN 'range2' WHEN created BETWEEN '2024-08-17 00:00:00' AND '2024-08-22 23:59:59' THEN 'range3' WHEN created BETWEEN '2024-08-23 00:00:00' AND '2024-08-28 23:59:59' THEN 'range4' WHEN created BETWEEN '2024-08-29 00:00:00' AND '2024-09-04 23:59:59' THEN 'range5' ELSE 'none' END AS 'range_group'
+				FROM pmf8_rank_math_analytics_gsc
+				WHERE created BETWEEN '2024-08-02 00:00:00' AND '2024-09-04 23:59:59'
+				GROUP BY range_group, Date(created)) AS t
+			GROUP BY t.range_group made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, RankMath\Analytics\Rest->get_dashboard, RankMath\Analytics\Summary->get_analytics_summary, RankMath\Analytics\Summary->get_analytics_summary_graph
+[07-Sep-2024 18:21:18 UTC] WordPress database error Table 'kyom27242379_cgbb1.pmf8_rank_math_analytics_objects' doesn't exist for query SELECT COUNT(object_id) AS count,
+				CASE
+					WHEN seo_score BETWEEN 81 AND 100 THEN 'good'
+					WHEN seo_score BETWEEN 51 AND 80 THEN 'ok'
+					WHEN seo_score BETWEEN 1 AND 50 THEN 'bad'
+					WHEN seo_score = 0 THEN 'noData'
+					ELSE 'none'
+				END AS type
+			FROM pmf8_rank_math_analytics_objects
+			WHERE is_indexable = 1
+			
+			GROUP BY type made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, RankMath\Analytics\Rest->get_dashboard, RankMath\Analytics\Summary->get_optimization_summary
+[07-Sep-2024 18:21:18 UTC] WordPress database error Table 'kyom27242379_cgbb1.pmf8_rank_math_analytics_objects' doesn't exist for query SELECT COUNT(object_id) AS total, SUM(seo_score) AS score FROM pmf8_rank_math_analytics_objects WHERE is_indexable = 1 LIMIT 0, 1 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, RankMath\Analytics\Rest->get_dashboard, RankMath\Analytics\Summary->get_optimization_summary, RankMath\Admin\Database\Query_Builder->one
+[07-Sep-2024 18:21:18 UTC] WordPress database error Table 'kyom27242379_cgbb1.pmf8_rank_math_analytics_gsc' doesn't exist for query SELECT COUNT(t1.query) AS total,
+				CASE
+					WHEN t1.position BETWEEN 1 AND 3 THEN 'top3'
+					WHEN t1.position BETWEEN 4 AND 10 THEN 'top10'
+					WHEN t1.position BETWEEN 11 AND 50 THEN 'top50'
+					WHEN t1.position BETWEEN 51 AND 100 THEN 'top100'
+					ELSE 'none'
+				END AS position_type
+			FROM (SELECT query, ROUND( AVG(position), 0 ) AS position 
+				FROM pmf8_rank_math_analytics_gsc
+				WHERE created BETWEEN '2024-08-02 00:00:00' AND '2024-09-04 23:59:59' AND DATE(created) = (SELECT MAX(DATE(created)) FROM pmf8_rank_math_analytics_gsc WHERE created BETWEEN '2024-08-02 00:00:00' AND '2024-09-04 23:59:59')
+				GROUP BY query 
+				ORDER BY position) as t1
+			GROUP BY position_type made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, RankMath\Analytics\Rest->get_keywords_overview, RankMath\Analytics\Keywords->get_top_keywords
+[07-Sep-2024 18:21:18 UTC] WordPress database error Table 'kyom27242379_cgbb1.pmf8_rank_math_analytics_gsc' doesn't exist for query SELECT COUNT(t1.query) AS total,
+				CASE
+					WHEN t1.position BETWEEN 1 AND 3 THEN 'top3'
+					WHEN t1.position BETWEEN 4 AND 10 THEN 'top10'
+					WHEN t1.position BETWEEN 11 AND 50 THEN 'top50'
+					WHEN t1.position BETWEEN 51 AND 100 THEN 'top100'
+					ELSE 'none'
+				END AS position_type
+			FROM (SELECT query, ROUND( AVG(position), 0 ) AS position 
+				FROM pmf8_rank_math_analytics_gsc
+				WHERE created BETWEEN '2024-06-29 00:00:00' AND '2024-08-01 23:59:59' AND DATE(created) = (SELECT MAX(DATE(created)) FROM pmf8_rank_math_analytics_gsc WHERE created BETWEEN '2024-06-29 00:00:00' AND '2024-08-01 23:59:59')
+				GROUP BY query 
+				ORDER BY position) as t1
+			GROUP BY position_type made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, RankMath\Analytics\Rest->get_keywords_overview, RankMath\Analytics\Keywords->get_top_keywords
+[07-Sep-2024 18:21:18 UTC] WordPress database error Table 'kyom27242379_cgbb1.pmf8_rank_math_analytics_gsc' doesn't exist for query SELECT AVG(ctr) AS ctr FROM pmf8_rank_math_analytics_gsc WHERE created BETWEEN '2024-08-02 00:00:00' AND '2024-09-04 23:59:59' LIMIT 0, 1 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, RankMath\Analytics\Rest->get_keywords_overview, RankMath\Analytics\Keywords->get_top_keywords, RankMath\Admin\Database\Query_Builder->getVar, RankMath\Admin\Database\Query_Builder->one
+[07-Sep-2024 18:21:18 UTC] WordPress database error Table 'kyom27242379_cgbb1.pmf8_rank_math_analytics_gsc' doesn't exist for query SELECT AVG(ctr) AS ctr FROM pmf8_rank_math_analytics_gsc WHERE created BETWEEN '2024-06-29 00:00:00' AND '2024-08-01 23:59:59' LIMIT 0, 1 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, RankMath\Analytics\Rest->get_keywords_overview, RankMath\Analytics\Keywords->get_top_keywords, RankMath\Admin\Database\Query_Builder->getVar, RankMath\Admin\Database\Query_Builder->one
+[07-Sep-2024 18:21:18 UTC] WordPress database error Table 'kyom27242379_cgbb1.pmf8_rank_math_analytics_gsc' doesn't exist for query SELECT MAX(DATE(created)) as date, CASE WHEN created BETWEEN '2024-08-05 00:00:00' AND '2024-08-10 23:59:59' THEN 'range1' WHEN created BETWEEN '2024-08-11 00:00:00' AND '2024-08-16 23:59:59' THEN 'range2' WHEN created BETWEEN '2024-08-17 00:00:00' AND '2024-08-22 23:59:59' THEN 'range3' WHEN created BETWEEN '2024-08-23 00:00:00' AND '2024-08-28 23:59:59' THEN 'range4' WHEN created BETWEEN '2024-08-29 00:00:00' AND '2024-09-04 23:59:59' THEN 'range5' ELSE 'none' END AS 'range_group'
+			FROM pmf8_rank_math_analytics_gsc
+			WHERE created BETWEEN '2024-08-02 00:00:00' AND '2024-09-04 23:59:59'
+			GROUP BY range_group made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, RankMath\Analytics\Rest->get_keywords_overview, RankMath\Analytics\Keywords->get_top_position_graph
+[07-Sep-2024 20:13:50 UTC] Cron 重新计划事件时出现错误，钩子名称：ewww_image_optimizer_relative_migration，错误代码：invalid_schedule，错误消息：事件计划不存在。，数据：{"schedule":"ewwwio_relative_migration_interval","args":[],"interval":300}
+[15-Sep-2024 16:50:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_statistics_visitors() in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/footer.php:53
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-includes/template.php(810): require_once()
+#1 /home2/kyom27242379/public_html/wp-includes/template.php(745): load_template('/home2/kyom2724...', true, Array)
+#2 /home2/kyom27242379/public_html/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/index.php(83): get_footer()
+#4 /home2/kyom27242379/public_html/wp-includes/template-loader.php(106): include('/home2/kyom2724...')
+#5 /home2/kyom27242379/public_html/wp-blog-header.php(19): require_once('/home2/kyom2724...')
+#6 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#7 {main}
+  thrown in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/footer.php on line 53
+[15-Sep-2024 16:50:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_statistics_visitors() in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/footer.php:53
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-includes/template.php(810): require_once()
+#1 /home2/kyom27242379/public_html/wp-includes/template.php(745): load_template('/home2/kyom2724...', true, Array)
+#2 /home2/kyom27242379/public_html/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/index.php(83): get_footer()
+#4 /home2/kyom27242379/public_html/wp-includes/template-loader.php(106): include('/home2/kyom2724...')
+#5 /home2/kyom27242379/public_html/wp-blog-header.php(19): require_once('/home2/kyom2724...')
+#6 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#7 {main}
+  thrown in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/footer.php on line 53
+[15-Sep-2024 16:50:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_statistics_visitors() in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/footer.php:53
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-includes/template.php(810): require_once()
+#1 /home2/kyom27242379/public_html/wp-includes/template.php(745): load_template('/home2/kyom2724...', true, Array)
+#2 /home2/kyom27242379/public_html/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/index.php(83): get_footer()
+#4 /home2/kyom27242379/public_html/wp-includes/template-loader.php(106): include('/home2/kyom2724...')
+#5 /home2/kyom27242379/public_html/wp-blog-header.php(19): require_once('/home2/kyom2724...')
+#6 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#7 {main}
+  thrown in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/footer.php on line 53
+[15-Sep-2024 16:50:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_statistics_visitors() in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/footer.php:53
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-includes/template.php(810): require_once()
+#1 /home2/kyom27242379/public_html/wp-includes/template.php(745): load_template('/home2/kyom2724...', true, Array)
+#2 /home2/kyom27242379/public_html/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/index.php(83): get_footer()
+#4 /home2/kyom27242379/public_html/wp-includes/template-loader.php(106): include('/home2/kyom2724...')
+#5 /home2/kyom27242379/public_html/wp-blog-header.php(19): require_once('/home2/kyom2724...')
+#6 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#7 {main}
+  thrown in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/footer.php on line 53
+[15-Sep-2024 16:50:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_statistics_visitors() in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/footer.php:53
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-includes/template.php(810): require_once()
+#1 /home2/kyom27242379/public_html/wp-includes/template.php(745): load_template('/home2/kyom2724...', true, Array)
+#2 /home2/kyom27242379/public_html/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/index.php(83): get_footer()
+#4 /home2/kyom27242379/public_html/wp-includes/template-loader.php(106): include('/home2/kyom2724...')
+#5 /home2/kyom27242379/public_html/wp-blog-header.php(19): require_once('/home2/kyom2724...')
+#6 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#7 {main}
+  thrown in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/footer.php on line 53
+[15-Sep-2024 16:52:28 UTC] [WP STATISTICS] [ERROR]: GeoIP database library not found in /home2/kyom27242379/public_html/wp-content/uploads/wp-statistics/GeoLite2-City.mmdb, trying to download it.
+[15-Sep-2024 16:52:29 UTC] [WP STATISTICS] [ERROR]: GeoIP database library not found in /home2/kyom27242379/public_html/wp-content/uploads/wp-statistics/GeoLite2-City.mmdb, trying to download it.
+[15-Sep-2024 16:52:34 UTC] [WP STATISTICS] [ERROR]: GeoIP database library not found in /home2/kyom27242379/public_html/wp-content/uploads/wp-statistics/GeoLite2-City.mmdb, trying to download it.
+[15-Sep-2024 16:52:54 UTC] [WP STATISTICS] [ERROR]: Error opening database file (/home2/kyom27242379/public_html/wp-content/uploads/wp-statistics/GeoLite2-City.mmdb). Is this a valid MaxMind DB file?
+[15-Sep-2024 16:52:55 UTC] [WP STATISTICS] [ERROR]: Error opening database file (/home2/kyom27242379/public_html/wp-content/uploads/wp-statistics/GeoLite2-City.mmdb). Is this a valid MaxMind DB file?
+[15-Sep-2024 16:52:58 UTC] [WP STATISTICS] [ERROR]: Error opening database file (/home2/kyom27242379/public_html/wp-content/uploads/wp-statistics/GeoLite2-City.mmdb). Is this a valid MaxMind DB file?
+[15-Sep-2024 19:17:12 UTC] WordPress database error Table 'kyom27242379_cgbb1.pmf8_rank_math_analytics_gsc' doesn't exist for query SELECT COUNT(DISTINCT(page)) AS posts, SUM(impressions) AS impressions, SUM(clicks) AS clicks, AVG(position) AS position FROM pmf8_rank_math_analytics_gsc WHERE created BETWEEN '2024-08-10 00:00:00' AND '2024-09-12 23:59:59' LIMIT 0, 1 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, RankMath\Analytics\Rest->get_dashboard, RankMath\Analytics\Summary->get_analytics_summary, RankMath\Admin\Database\Query_Builder->one
+[15-Sep-2024 19:17:12 UTC] PHP Warning:  Creating default object from empty value in /home2/kyom27242379/public_html/wp-content/plugins/seo-by-rank-math/includes/modules/analytics/class-summary.php on line 226
+[15-Sep-2024 19:17:12 UTC] WordPress database error Table 'kyom27242379_cgbb1.pmf8_rank_math_analytics_gsc' doesn't exist for query SELECT COUNT(DISTINCT(page)) AS posts, SUM(impressions) AS impressions, SUM(clicks) AS clicks, AVG(position) AS position FROM pmf8_rank_math_analytics_gsc WHERE created BETWEEN '2024-07-07 00:00:00' AND '2024-08-09 23:59:59' LIMIT 0, 1 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, RankMath\Analytics\Rest->get_dashboard, RankMath\Analytics\Summary->get_analytics_summary, RankMath\Admin\Database\Query_Builder->one
+[15-Sep-2024 19:17:12 UTC] PHP Warning:  Creating default object from empty value in /home2/kyom27242379/public_html/wp-content/plugins/seo-by-rank-math/includes/modules/analytics/class-summary.php on line 239
+[15-Sep-2024 19:17:12 UTC] WordPress database error Table 'kyom27242379_cgbb1.pmf8_rank_math_analytics_gsc' doesn't exist for query SELECT COUNT(DISTINCT(query))
+				FROM pmf8_rank_math_analytics_gsc
+				WHERE created BETWEEN '2024-08-10 00:00:00' AND '2024-09-12 23:59:59' made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, RankMath\Analytics\Rest->get_dashboard, RankMath\Analytics\Summary->get_analytics_summary, RankMath\Analytics\Summary->get_keywords_summary
+[15-Sep-2024 19:17:12 UTC] WordPress database error Table 'kyom27242379_cgbb1.pmf8_rank_math_analytics_gsc' doesn't exist for query SELECT COUNT(DISTINCT(query))
+				FROM pmf8_rank_math_analytics_gsc
+				WHERE created BETWEEN '2024-07-07 00:00:00' AND '2024-08-09 23:59:59' made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, RankMath\Analytics\Rest->get_dashboard, RankMath\Analytics\Summary->get_analytics_summary, RankMath\Analytics\Summary->get_keywords_summary
+[15-Sep-2024 19:17:12 UTC] WordPress database error Table 'kyom27242379_cgbb1.pmf8_rank_math_analytics_gsc' doesn't exist for query SELECT DATE_FORMAT( created, '%Y-%m-%d') as date, SUM(clicks) as clicks, SUM(impressions) as impressions, AVG(position) as position, AVG(ctr) as ctr, CASE WHEN created BETWEEN '2024-08-13 00:00:00' AND '2024-08-18 23:59:59' THEN 'range1' WHEN created BETWEEN '2024-08-19 00:00:00' AND '2024-08-24 23:59:59' THEN 'range2' WHEN created BETWEEN '2024-08-25 00:00:00' AND '2024-08-30 23:59:59' THEN 'range3' WHEN created BETWEEN '2024-08-31 00:00:00' AND '2024-09-05 23:59:59' THEN 'range4' WHEN created BETWEEN '2024-09-06 00:00:00' AND '2024-09-12 23:59:59' THEN 'range5' ELSE 'none' END AS 'range_group'
+			FROM pmf8_rank_math_analytics_gsc
+			WHERE created BETWEEN '2024-08-10 00:00:00' AND '2024-09-12 23:59:59'
+			GROUP BY range_group made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, RankMath\Analytics\Rest->get_dashboard, RankMath\Analytics\Summary->get_analytics_summary, RankMath\Analytics\Summary->get_analytics_summary_graph
+[15-Sep-2024 19:17:12 UTC] WordPress database error Table 'kyom27242379_cgbb1.pmf8_rank_math_analytics_gsc' doesn't exist for query SELECT t.range_group, MAX(CONCAT(t.range_group, ':', t.date, ':', t.keywords )) as mixed FROM
+				(SELECT COUNT(DISTINCT(query)) as keywords, Date(created) as date, CASE WHEN created BETWEEN '2024-08-13 00:00:00' AND '2024-08-18 23:59:59' THEN 'range1' WHEN created BETWEEN '2024-08-19 00:00:00' AND '2024-08-24 23:59:59' THEN 'range2' WHEN created BETWEEN '2024-08-25 00:00:00' AND '2024-08-30 23:59:59' THEN 'range3' WHEN created BETWEEN '2024-08-31 00:00:00' AND '2024-09-05 23:59:59' THEN 'range4' WHEN created BETWEEN '2024-09-06 00:00:00' AND '2024-09-12 23:59:59' THEN 'range5' ELSE 'none' END AS 'range_group'
+				FROM pmf8_rank_math_analytics_gsc
+				WHERE created BETWEEN '2024-08-10 00:00:00' AND '2024-09-12 23:59:59'
+				GROUP BY range_group, Date(created)) AS t
+			GROUP BY t.range_group made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, RankMath\Analytics\Rest->get_dashboard, RankMath\Analytics\Summary->get_analytics_summary, RankMath\Analytics\Summary->get_analytics_summary_graph
+[15-Sep-2024 19:17:12 UTC] WordPress database error Table 'kyom27242379_cgbb1.pmf8_rank_math_analytics_objects' doesn't exist for query SELECT COUNT(object_id) AS count,
+				CASE
+					WHEN seo_score BETWEEN 81 AND 100 THEN 'good'
+					WHEN seo_score BETWEEN 51 AND 80 THEN 'ok'
+					WHEN seo_score BETWEEN 1 AND 50 THEN 'bad'
+					WHEN seo_score = 0 THEN 'noData'
+					ELSE 'none'
+				END AS type
+			FROM pmf8_rank_math_analytics_objects
+			WHERE is_indexable = 1
+			
+			GROUP BY type made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, RankMath\Analytics\Rest->get_dashboard, RankMath\Analytics\Summary->get_optimization_summary
+[15-Sep-2024 19:17:12 UTC] WordPress database error Table 'kyom27242379_cgbb1.pmf8_rank_math_analytics_objects' doesn't exist for query SELECT COUNT(object_id) AS total, SUM(seo_score) AS score FROM pmf8_rank_math_analytics_objects WHERE is_indexable = 1 LIMIT 0, 1 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, RankMath\Analytics\Rest->get_dashboard, RankMath\Analytics\Summary->get_optimization_summary, RankMath\Admin\Database\Query_Builder->one
+[15-Sep-2024 19:17:12 UTC] WordPress database error Table 'kyom27242379_cgbb1.pmf8_rank_math_analytics_gsc' doesn't exist for query SELECT COUNT(t1.query) AS total,
+				CASE
+					WHEN t1.position BETWEEN 1 AND 3 THEN 'top3'
+					WHEN t1.position BETWEEN 4 AND 10 THEN 'top10'
+					WHEN t1.position BETWEEN 11 AND 50 THEN 'top50'
+					WHEN t1.position BETWEEN 51 AND 100 THEN 'top100'
+					ELSE 'none'
+				END AS position_type
+			FROM (SELECT query, ROUND( AVG(position), 0 ) AS position 
+				FROM pmf8_rank_math_analytics_gsc
+				WHERE created BETWEEN '2024-08-10 00:00:00' AND '2024-09-12 23:59:59' AND DATE(created) = (SELECT MAX(DATE(created)) FROM pmf8_rank_math_analytics_gsc WHERE created BETWEEN '2024-08-10 00:00:00' AND '2024-09-12 23:59:59')
+				GROUP BY query 
+				ORDER BY position) as t1
+			GROUP BY position_type made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, RankMath\Analytics\Rest->get_keywords_overview, RankMath\Analytics\Keywords->get_top_keywords
+[15-Sep-2024 19:17:12 UTC] WordPress database error Table 'kyom27242379_cgbb1.pmf8_rank_math_analytics_gsc' doesn't exist for query SELECT COUNT(t1.query) AS total,
+				CASE
+					WHEN t1.position BETWEEN 1 AND 3 THEN 'top3'
+					WHEN t1.position BETWEEN 4 AND 10 THEN 'top10'
+					WHEN t1.position BETWEEN 11 AND 50 THEN 'top50'
+					WHEN t1.position BETWEEN 51 AND 100 THEN 'top100'
+					ELSE 'none'
+				END AS position_type
+			FROM (SELECT query, ROUND( AVG(position), 0 ) AS position 
+				FROM pmf8_rank_math_analytics_gsc
+				WHERE created BETWEEN '2024-07-07 00:00:00' AND '2024-08-09 23:59:59' AND DATE(created) = (SELECT MAX(DATE(created)) FROM pmf8_rank_math_analytics_gsc WHERE created BETWEEN '2024-07-07 00:00:00' AND '2024-08-09 23:59:59')
+				GROUP BY query 
+				ORDER BY position) as t1
+			GROUP BY position_type made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, RankMath\Analytics\Rest->get_keywords_overview, RankMath\Analytics\Keywords->get_top_keywords
+[15-Sep-2024 19:17:12 UTC] WordPress database error Table 'kyom27242379_cgbb1.pmf8_rank_math_analytics_gsc' doesn't exist for query SELECT AVG(ctr) AS ctr FROM pmf8_rank_math_analytics_gsc WHERE created BETWEEN '2024-08-10 00:00:00' AND '2024-09-12 23:59:59' LIMIT 0, 1 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, RankMath\Analytics\Rest->get_keywords_overview, RankMath\Analytics\Keywords->get_top_keywords, RankMath\Admin\Database\Query_Builder->getVar, RankMath\Admin\Database\Query_Builder->one
+[15-Sep-2024 19:17:12 UTC] WordPress database error Table 'kyom27242379_cgbb1.pmf8_rank_math_analytics_gsc' doesn't exist for query SELECT AVG(ctr) AS ctr FROM pmf8_rank_math_analytics_gsc WHERE created BETWEEN '2024-07-07 00:00:00' AND '2024-08-09 23:59:59' LIMIT 0, 1 made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, RankMath\Analytics\Rest->get_keywords_overview, RankMath\Analytics\Keywords->get_top_keywords, RankMath\Admin\Database\Query_Builder->getVar, RankMath\Admin\Database\Query_Builder->one
+[15-Sep-2024 19:17:12 UTC] WordPress database error Table 'kyom27242379_cgbb1.pmf8_rank_math_analytics_gsc' doesn't exist for query SELECT MAX(DATE(created)) as date, CASE WHEN created BETWEEN '2024-08-13 00:00:00' AND '2024-08-18 23:59:59' THEN 'range1' WHEN created BETWEEN '2024-08-19 00:00:00' AND '2024-08-24 23:59:59' THEN 'range2' WHEN created BETWEEN '2024-08-25 00:00:00' AND '2024-08-30 23:59:59' THEN 'range3' WHEN created BETWEEN '2024-08-31 00:00:00' AND '2024-09-05 23:59:59' THEN 'range4' WHEN created BETWEEN '2024-09-06 00:00:00' AND '2024-09-12 23:59:59' THEN 'range5' ELSE 'none' END AS 'range_group'
+			FROM pmf8_rank_math_analytics_gsc
+			WHERE created BETWEEN '2024-08-10 00:00:00' AND '2024-09-12 23:59:59'
+			GROUP BY range_group made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, RankMath\Analytics\Rest->get_keywords_overview, RankMath\Analytics\Keywords->get_top_position_graph
+[21-Sep-2024 11:20:59 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 11:21:58 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 11:25:14 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 11:26:15 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 11:27:16 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 11:43:43 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 11:44:42 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 11:45:44 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 11:46:44 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 11:47:43 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 11:48:44 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 11:49:45 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 11:50:45 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 11:56:47 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, false)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(886): wp_update_post(Array, true, false)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:00:26 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:05:07 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:07:49 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, false)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(886): wp_update_post(Array, true, false)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:08:50 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, false)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(886): wp_update_post(Array, true, false)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:09:57 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:10:57 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:11:37 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, false)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(886): wp_update_post(Array, true, false)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:11:58 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:12:59 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:13:16 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, false)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(886): wp_update_post(Array, true, false)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:13:58 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:14:58 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:15:34 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, false)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(886): wp_update_post(Array, true, false)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:15:59 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:16:17 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, false)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(886): wp_update_post(Array, true, false)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:16:59 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:17:24 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, false)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(886): wp_update_post(Array, true, false)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:17:59 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:18:59 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:19:59 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:20:59 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:22:00 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:28:21 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:29:20 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:29:39 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, false)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(886): wp_update_post(Array, true, false)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:29:53 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, false)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(886): wp_update_post(Array, true, false)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:31:42 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, false)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(886): wp_update_post(Array, true, false)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:32:22 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:35:22 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, false)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(886): wp_update_post(Array, true, false)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:39:28 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:40:11 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, false)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(886): wp_update_post(Array, true, false)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:42:19 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, false)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(886): wp_update_post(Array, true, false)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:42:59 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, false)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(886): wp_update_post(Array, true, false)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:43:29 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:44:30 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:45:01 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, false)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(886): wp_update_post(Array, true, false)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:45:29 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:45:39 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, false)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(886): wp_update_post(Array, true, false)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:46:29 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:47:29 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:48:03 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, false)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(886): wp_update_post(Array, true, false)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:49:29 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:52:29 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:54:29 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, true)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php(240): wp_update_post(Array, true)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Autosaves_Controller->create_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}
+[21-Sep-2024 12:55:03 UTC] ChatGPT-excerpt-err:Error: Class 'HaoZiTeam\ChatGPT\V2' not found in /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php:55
+Stack trace:
+#0 /home2/kyom27242379/public_html/wp-content/themes/Sakurairo-2.6.3.1/inc/chatgpt/hooks.php(30): IROChatGPT\summon_article_excerpt(Object(WP_Post))
+#1 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): IROChatGPT\{closure}(338, Object(WP_Post), true)
+#2 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 /home2/kyom27242379/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home2/kyom27242379/public_html/wp-includes/post.php(4880): do_action('save_post_post', 338, Object(WP_Post), true)
+#5 /home2/kyom27242379/public_html/wp-includes/post.php(4993): wp_insert_post(Array, true, false)
+#6 /home2/kyom27242379/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(886): wp_update_post(Array, true, false)
+#7 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#8 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /home2/kyom27242379/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /home2/kyom27242379/public_html/wp-includes/rest-api.php(420): WP_REST_Server->serve_request('/wp/v2/posts/33...')
+#11 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#12 /home2/kyom27242379/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /home2/kyom27242379/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#14 /home2/kyom27242379/public_html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#15 /home2/kyom27242379/public_html/wp-includes/class-wp.php(813): WP->parse_request('')
+#16 /home2/kyom27242379/public_html/wp-includes/functions.php(1336): WP->main('')
+#17 /home2/kyom27242379/public_html/wp-blog-header.php(16): wp()
+#18 /home2/kyom27242379/public_html/index.php(17): require('/home2/kyom2724...')
+#19 {main}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//kyomu.me/main-sitemap.xsl"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<sitemap>
+		<loc>https://kyomu.me/post-sitemap.xml</loc>
+		<lastmod>2024-09-21T12:55:04+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://kyomu.me/page-sitemap.xml</loc>
+		<lastmod>2024-09-22T03:20:20+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://kyomu.me/shuoshuo-sitemap.xml</loc>
+		<lastmod>2024-09-21T11:18:46+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://kyomu.me/category-sitemap.xml</loc>
+		<lastmod>2024-09-21T12:55:04+00:00</lastmod>
+	</sitemap>
+</sitemapindex>
