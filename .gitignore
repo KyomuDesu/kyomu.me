@@ -1,0 +1,21 @@
+# Ignore wp-config.php (add only if you don’t want to track it)
+wp-config.php
+
+# Ignore common system files
+.DS_Store
+Thumbs.db
+
+# Ignore common environment-specific files and directories
+.env
+.vscode/
+.idea/
+node_modules/
+vendor/
+
+# Log files
+*.log
+
+# Backup files
+*.sql
+*.tar.gz
+*.zip
