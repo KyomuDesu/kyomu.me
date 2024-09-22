@@ -1,4 +1,4 @@
-# kyomu.me Archive
+# kyomu.me
 
 This repository is an archive of my personal blog website. Since I do not use GitHub to host the website, updates to this repository may not always be timely.
 
